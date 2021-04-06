@@ -1,0 +1,53 @@
+.movie-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 15px);
+    margin: 15px auto;
+}
+
+.movie-title {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+    height: 44px;
+    margin: 0 0 5px 0;
+    overflow: hidden;
+}
+
+.movie-img {
+    margin-bottom: 15px;
+}
+
+.movie-img img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie-summary {
+    display: block;
+    height: 60px;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.movie-genres {
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.movie-genres-item {
+    color: #ccc;
+    padding-right: 5px;
+}
+.movie-genres-item:after {
+    content: ',';
+}
+.movie-genres-item:last-child:after {
+    content: '';
+}
